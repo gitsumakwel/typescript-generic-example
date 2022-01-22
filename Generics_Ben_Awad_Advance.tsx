@@ -55,12 +55,15 @@ class App extends React.Component{
 }
 
 
-/* const Form:typeFormFunc = <T extends {}>({values,children}:FormProps<T>) => {
-   return (children(values))
-} 
+/* 
+    type typeFormFunc=<T>({}:FormProps<T>)=>JSX.Element;
+    const Form:typeFormFunc = <T extends {}>({values,children}:FormProps<T>) => {
+        return (children(values))
+    } 
    const App:React.FC = () => {
        return <Form values={'hellow world'} children:(value=><div>{value}</div>)></Form>
    };
 */
+
 
 export default App;
